@@ -53,7 +53,7 @@
   header-space-below-headline: 0.5cm,
   header-space-below-connections: 0.5cm,
   header-connections-hyperlink: true,
-  header-connections-show-icons: false,
+  header-connections-show-icons: true,
   header-connections-display-urls-instead-of-usernames: false,
   header-connections-separator: "•",
   header-connections-space-between-connections: 0.4cm,
@@ -89,11 +89,11 @@
 = Luis Sebastian Ibarra Villamil
 
 #connections(
-  [Neiva, Colombia],
-  [#link("mailto:hello@luisibarra.dev", icon: false, if-underline: false, if-color: false)[hello\@luisibarra.dev]],
-  [#link("tel:+57-312-3622460", icon: false, if-underline: false, if-color: false)[+57 312 3622460]],
-  [#link("https://linkedin.com/in/luis-sebastian-ibarra", icon: false, if-underline: false, if-color: false)[luis-sebastian-ibarra]],
-  [#link("https://github.com/sebastianiv21", icon: false, if-underline: false, if-color: false)[sebastianiv21]],
+  [#connection-with-icon("location-dot")[Neiva, Colombia]],
+  [#link("mailto:hello@luisibarra.dev", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[hello\@luisibarra.dev]]],
+  [#link("tel:+57-312-3622460", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[+57 312 3622460]]],
+  [#link("https://linkedin.com/in/luis-sebastian-ibarra", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[luis-sebastian-ibarra]]],
+  [#link("https://github.com/sebastianiv21", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[sebastianiv21]]],
 )
 
 

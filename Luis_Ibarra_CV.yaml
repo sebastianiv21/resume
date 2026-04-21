@@ -131,3 +131,4 @@ design:
   header:
     connections:
       phone_number_format: international
+      show_icons: true
