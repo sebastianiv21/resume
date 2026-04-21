@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Luis Sebastian Ibarra Villamil
+  headline: "DevOps Engineer | AWS · Kubernetes · CI/CD · Terraform"
   location: "Neiva, Colombia"
   email: hello@luisibarra.dev
   phone: "+573123622460"
@@ -55,7 +56,7 @@ cv:
         end_date: 2025-01
         location: Remote
         highlights:
-          - "Support 200+ production applications across 55+ countries and 3,000+ branches, ensuring service delivery and system stability at enterprise scale."
+          - "Maintain 200+ production applications across 55+ countries and 3,000+ branches, ensuring service delivery and system stability at enterprise scale."
           - "Diagnose and resolve database and infrastructure issues, minimizing downtime and maintaining uninterrupted service across a globally distributed environment."
           - "Manage support requests through ServiceNow, documenting solutions to build a reusable knowledge base and reduce recurrence of common issues."
 
@@ -67,14 +68,6 @@ cv:
         highlights:
           - "Build a helpdesk web application using the MERN stack (MongoDB, Express, React, Node.js), covering ticket submission, tracking, and resolution workflows."
           - "Implement authentication and authorization mechanisms to ensure secure user access."
-
-      - company: "Alcaldía de Neiva"
-        position: IT Support Technician
-        start_date: 2022-09
-        end_date: 2022-12
-        location: "Neiva, Colombia"
-        highlights:
-          - "Provide on-site technical support, resolving hardware and software issues for end users across the organization."
 
     projects:
       - name: "[LogPilot](https://github.com/sebastianiv21/logpilot)"
@@ -111,12 +104,6 @@ cv:
       - name: DevOps on AWS Specialization
         date: "2024"
         summary: "AWS / Coursera"
-      - name: Python + Linux Bootcamp
-        date: "2023"
-        summary: SoftServe Academy
-      - name: PostgreSQL for Everybody Specialization
-        date: "2023"
-        summary: "University of Michigan / Coursera"
 
     languages:
       - label: Spanish

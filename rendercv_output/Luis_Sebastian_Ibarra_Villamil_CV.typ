@@ -88,6 +88,8 @@
 
 = Luis Sebastian Ibarra Villamil
 
+  #headline([DevOps Engineer | AWS · Kubernetes · CI\/CD · Terraform])
+
 #connections(
   [#connection-with-icon("location-dot")[Neiva, Colombia]],
   [#link("mailto:hello@luisibarra.dev", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[hello\@luisibarra.dev]]],
@@ -169,7 +171,7 @@
 
   ],
   main-column-second-row: [
-    - Support 200+ production applications across 55+ countries and 3,000+ branches, ensuring service delivery and system stability at enterprise scale.
+    - Maintain 200+ production applications across 55+ countries and 3,000+ branches, ensuring service delivery and system stability at enterprise scale.
 
     - Diagnose and resolve database and infrastructure issues, minimizing downtime and maintaining uninterrupted service across a globally distributed environment.
 
@@ -191,21 +193,6 @@
     - Build a helpdesk web application using the MERN stack (MongoDB, Express, React, Node.js), covering ticket submission, tracking, and resolution workflows.
 
     - Implement authentication and authorization mechanisms to ensure secure user access.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Alcaldía de Neiva], IT Support Technician -- Neiva, Colombia
-
-  ],
-  [
-    Sept 2022 – Dec 2022
-
-  ],
-  main-column-second-row: [
-    - Provide on-site technical support, resolving hardware and software issues for end users across the organization.
 
   ],
 )
@@ -325,36 +312,6 @@
   ],
   main-column-second-row: [
     #summary[AWS \/ Coursera]
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Python + Linux Bootcamp]
-
-  ],
-  [
-    Jan 2023
-
-  ],
-  main-column-second-row: [
-    #summary[SoftServe Academy]
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[PostgreSQL for Everybody Specialization]
-
-  ],
-  [
-    Jan 2023
-
-  ],
-  main-column-second-row: [
-    #summary[University of Michigan \/ Coursera]
 
   ],
 )
