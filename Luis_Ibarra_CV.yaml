@@ -1,0 +1,133 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Luis Sebastian Ibarra Villamil
+  location: "Neiva, Colombia"
+  email: hello@luisibarra.dev
+  phone: "+573123622460"
+  social_networks:
+    - network: LinkedIn
+      username: luis-sebastian-ibarra
+    - network: GitHub
+      username: sebastianiv21
+
+  sections:
+    technical_skills:
+      - label: "Infrastructure & Cloud"
+        details: "AWS, Docker, Kubernetes, Terraform, Linux"
+      - label: "CI/CD & Automation"
+        details: "GitHub Actions, CI/CD pipelines"
+      - label: Observability
+        details: "Grafana, Prometheus, Loki"
+      - label: "Languages & Frameworks"
+        details: "Python, FastAPI, Node.js, Golang"
+      - label: Databases
+        details: "PostgreSQL, MongoDB"
+
+    experience:
+      - company: Appsmith
+        position: Technical Support Engineer (DevOps Focus)
+        start_date: 2025-04
+        end_date: present
+        location: Remote
+        highlights:
+          - "Troubleshoot production incidents in distributed, containerized environments — diagnosing failures across application, Kubernetes, and cloud infrastructure layers (AWS, GCP, and Azure) for a global developer community."
+          - "Implement third-party datasource integrations into the Appsmith platform, expanding available connectors and enabling customers to use external services directly within their workflows."
+          - "Integrate a debugging SDK into the support workflow, enabling richer diagnostic data capture and reducing investigation time for complex customer issues."
+          - "Build AI-powered log analysis tooling using LLM-based prompts to automate log investigation, improving operational visibility and troubleshooting efficiency for the team."
+          - "Analyze logs and metrics using Grafana Cloud to identify root causes, performance bottlenecks, and system instability in production environments."
+          - "Contribute to internal runbooks, incident documentation, and support articles — reducing recurrence of common issues across a distributed, cross-timezone team."
+
+      - company: Professional Industrial Services SAS
+        position: Full Stack Developer
+        start_date: 2023-03
+        end_date: 2025-03
+        location: Remote
+        highlights:
+          - "Design and deploy Golang and Python-based backend services and APIs supporting a vehicle logistics platform serving 1,000+ users and vehicles."
+          - "Build and maintain containerized microservices using Docker and Kubernetes, improving application scalability, fault tolerance, and deployment reliability."
+          - "Implement CI/CD pipelines to automate builds, testing, and deployments, reducing manual errors and improving release velocity."
+          - "Operate and optimize PostgreSQL databases across multiple environments, ensuring data integrity, performance, and availability."
+          - "Investigate and resolve production issues across application and infrastructure layers, minimizing downtime and improving system stability."
+
+      - company: Scotiatech
+        position: Technical Support Analyst
+        start_date: 2023-07
+        end_date: 2025-01
+        location: Remote
+        highlights:
+          - "Support 200+ production applications across 55+ countries and 3,000+ branches, ensuring service delivery and system stability at enterprise scale."
+          - "Diagnose and resolve database and infrastructure issues, minimizing downtime and maintaining uninterrupted service across a globally distributed environment."
+          - "Manage support requests through ServiceNow, documenting solutions to build a reusable knowledge base and reduce recurrence of common issues."
+
+      - company: "IT Technology R&M SAS"
+        position: Full Stack Developer Intern
+        start_date: 2022-07
+        end_date: 2022-12
+        location: "Neiva, Colombia"
+        highlights:
+          - "Build a helpdesk web application using the MERN stack (MongoDB, Express, React, Node.js), covering ticket submission, tracking, and resolution workflows."
+          - "Implement authentication and authorization mechanisms to ensure secure user access."
+
+      - company: "Alcaldía de Neiva"
+        position: IT Support Technician
+        start_date: 2022-09
+        end_date: 2022-12
+        location: "Neiva, Colombia"
+        highlights:
+          - "Provide on-site technical support, resolving hardware and software issues for end users across the organization."
+
+    projects:
+      - name: "[LogPilot](https://github.com/sebastianiv21/logpilot)"
+        start_date: 2025
+        end_date: present
+        summary: Personal Project
+        highlights:
+          - "Build a local-first observability platform: upload compressed log archives, parse and store in Loki, derive metrics for Prometheus, provision Grafana dashboards, and use an AI agent to produce structured incident reports."
+          - "Full stack runs via Docker Compose; reports are exportable as Markdown or PDF."
+          - "Stack: Docker · Loki · Prometheus · Grafana · PostgreSQL + pgvector · Python"
+
+    education:
+      - institution: Universidad Surcolombiana
+        area: Electronic Engineering
+        degree: B.S.
+        start_date: 2015
+        end_date: 2021
+      - institution: SENA
+        area: Analysis and Development of Information Systems
+        degree: Technologist
+        start_date: 2020
+        end_date: 2023
+
+    certifications:
+      - name: DevOps and Software Engineering Specialization
+        date: "2024"
+        summary: "IBM / Coursera"
+      - name: "Application Security for Developers and DevOps Professionals"
+        date: "2024"
+        summary: "IBM / Coursera"
+      - name: Containerized Applications on AWS
+        date: "2024"
+        summary: "AWS / Coursera"
+      - name: DevOps on AWS Specialization
+        date: "2024"
+        summary: "AWS / Coursera"
+      - name: Python + Linux Bootcamp
+        date: "2023"
+        summary: SoftServe Academy
+      - name: PostgreSQL for Everybody Specialization
+        date: "2023"
+        summary: "University of Michigan / Coursera"
+
+    languages:
+      - label: Spanish
+        details: Native
+      - label: English
+        details: C1
+      - label: Portuguese
+        details: B1
+
+design:
+  theme: harvard
+  header:
+    connections:
+      phone_number_format: international
