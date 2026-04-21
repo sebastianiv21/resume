@@ -88,7 +88,7 @@
 
 = Luis Sebastian Ibarra Villamil
 
-  #headline([DevOps Engineer | AWS · Kubernetes · CI\/CD · Terraform])
+  #headline([DevOps Engineer | AWS · Docker · Kubernetes · CI\/CD · Terraform])
 
 #connections(
   [#connection-with-icon("location-dot")[Neiva, Colombia]],
@@ -123,7 +123,9 @@
 
   ],
   main-column-second-row: [
-    - Troubleshoot production incidents in distributed, containerized environments — diagnosing failures across application, Kubernetes, and cloud infrastructure layers (AWS, GCP, and Azure) for a global developer community.
+    #summary[Developer tooling — open-source low-code platform for building internal apps, deployed across AWS, GCP, and Azure environments by teams worldwide.]
+
+    - Troubleshoot production incidents in distributed, containerized (Docker\/Kubernetes) environments — diagnosing failures across application and cloud infrastructure layers (AWS, GCP, Azure) for a global developer community.
 
     - Implement third-party datasource integrations into the Appsmith platform, expanding available connectors and enabling customers to use external services directly within their workflows.
 
@@ -148,11 +150,13 @@
 
   ],
   main-column-second-row: [
-    - Design and deploy Golang and Python-based backend services and APIs supporting a vehicle logistics platform serving 1,000+ users and vehicles.
+    #summary[Logistics tech — vehicle tracking and fleet management platform serving 1,000+ users and vehicles across Colombia and Dominican Republic.]
 
-    - Build and maintain containerized microservices using Docker and Kubernetes, improving application scalability, fault tolerance, and deployment reliability.
+    - Design and deploy Golang and Python-based backend services and APIs for the vehicle logistics platform, handling real-time tracking and fleet operations at scale.
 
-    - Implement CI\/CD pipelines to automate builds, testing, and deployments, reducing manual errors and improving release velocity.
+    - Migrated existing backend services to Docker containers, improving deployment consistency, fault tolerance, and environment parity across dev and production.
+
+    - Migrated manual deployment processes to automated CI\/CD pipelines using GitHub Actions, eliminating manual errors and improving release velocity.
 
     - Operate and optimize PostgreSQL databases across multiple environments, ensuring data integrity, performance, and availability.
 
@@ -171,7 +175,9 @@
 
   ],
   main-column-second-row: [
-    - Maintain 200+ production applications across 55+ countries and 3,000+ branches, ensuring service delivery and system stability at enterprise scale.
+    #summary[Fintech \/ banking — technology arm of Scotiabank, one of Canada's largest financial institutions, operating across 55+ countries in a regulated environment.]
+
+    - Maintain 200+ mission-critical banking applications across 55+ countries and 3,000+ branches, ensuring service delivery and system stability at enterprise scale.
 
     - Diagnose and resolve database and infrastructure issues, minimizing downtime and maintaining uninterrupted service across a globally distributed environment.
 
@@ -190,6 +196,8 @@
 
   ],
   main-column-second-row: [
+    #summary[IT services — internal tooling and support operations for a regional technology company.]
+
     - Build a helpdesk web application using the MERN stack (MongoDB, Express, React, Node.js), covering ticket submission, tracking, and resolution workflows.
 
     - Implement authentication and authorization mechanisms to ensure secure user access.

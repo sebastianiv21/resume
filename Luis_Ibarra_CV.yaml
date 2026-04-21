@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Luis Sebastian Ibarra Villamil
-  headline: "DevOps Engineer | AWS · Kubernetes · CI/CD · Terraform"
+  headline: "DevOps Engineer | AWS · Docker · Kubernetes · CI/CD · Terraform"
   location: "Neiva, Colombia"
   email: hello@luisibarra.dev
   phone: "+573123622460"
@@ -30,8 +30,9 @@ cv:
         start_date: 2025-04
         end_date: present
         location: Remote
+        summary: "Developer tooling — open-source low-code platform for building internal apps, deployed across AWS, GCP, and Azure environments by teams worldwide."
         highlights:
-          - "Troubleshoot production incidents in distributed, containerized environments — diagnosing failures across application, Kubernetes, and cloud infrastructure layers (AWS, GCP, and Azure) for a global developer community."
+          - "Troubleshoot production incidents in distributed, containerized (Docker/Kubernetes) environments — diagnosing failures across application and cloud infrastructure layers (AWS, GCP, Azure) for a global developer community."
           - "Implement third-party datasource integrations into the Appsmith platform, expanding available connectors and enabling customers to use external services directly within their workflows."
           - "Integrate a debugging SDK into the support workflow, enabling richer diagnostic data capture and reducing investigation time for complex customer issues."
           - "Build AI-powered log analysis tooling using LLM-based prompts to automate log investigation, improving operational visibility and troubleshooting efficiency for the team."
@@ -43,10 +44,11 @@ cv:
         start_date: 2023-03
         end_date: 2025-03
         location: Remote
+        summary: "Logistics tech — vehicle tracking and fleet management platform serving 1,000+ users and vehicles across Colombia and Dominican Republic."
         highlights:
-          - "Design and deploy Golang and Python-based backend services and APIs supporting a vehicle logistics platform serving 1,000+ users and vehicles."
-          - "Build and maintain containerized microservices using Docker and Kubernetes, improving application scalability, fault tolerance, and deployment reliability."
-          - "Implement CI/CD pipelines to automate builds, testing, and deployments, reducing manual errors and improving release velocity."
+          - "Design and deploy Golang and Python-based backend services and APIs for the vehicle logistics platform, handling real-time tracking and fleet operations at scale."
+          - "Migrated existing backend services to Docker containers, improving deployment consistency, fault tolerance, and environment parity across dev and production."
+          - "Migrated manual deployment processes to automated CI/CD pipelines using GitHub Actions, eliminating manual errors and improving release velocity."
           - "Operate and optimize PostgreSQL databases across multiple environments, ensuring data integrity, performance, and availability."
           - "Investigate and resolve production issues across application and infrastructure layers, minimizing downtime and improving system stability."
 
@@ -55,8 +57,9 @@ cv:
         start_date: 2023-07
         end_date: 2025-01
         location: Remote
+        summary: "Fintech / banking — technology arm of Scotiabank, one of Canada's largest financial institutions, operating across 55+ countries in a regulated environment."
         highlights:
-          - "Maintain 200+ production applications across 55+ countries and 3,000+ branches, ensuring service delivery and system stability at enterprise scale."
+          - "Maintain 200+ mission-critical banking applications across 55+ countries and 3,000+ branches, ensuring service delivery and system stability at enterprise scale."
           - "Diagnose and resolve database and infrastructure issues, minimizing downtime and maintaining uninterrupted service across a globally distributed environment."
           - "Manage support requests through ServiceNow, documenting solutions to build a reusable knowledge base and reduce recurrence of common issues."
 
@@ -65,6 +68,7 @@ cv:
         start_date: 2022-07
         end_date: 2022-12
         location: "Neiva, Colombia"
+        summary: "IT services — internal tooling and support operations for a regional technology company."
         highlights:
           - "Build a helpdesk web application using the MERN stack (MongoDB, Express, React, Node.js), covering ticket submission, tracking, and resolution workflows."
           - "Implement authentication and authorization mechanisms to ensure secure user access."
