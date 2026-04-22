@@ -69,7 +69,7 @@
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
-  entries-degree-width: 1cm,
+  entries-degree-width: 2.2cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0cm,
   entries-highlights-bullet:  "•" ,
@@ -182,25 +182,6 @@
     - Diagnose and resolve database and infrastructure issues, minimizing downtime and maintaining uninterrupted service across a globally distributed environment.
 
     - Manage support requests through ServiceNow, documenting solutions to build a reusable knowledge base and reduce recurrence of common issues.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[IT Technology R&M SAS], Full Stack Developer Intern -- Neiva, Colombia
-
-  ],
-  [
-    July 2022 – Dec 2022
-
-  ],
-  main-column-second-row: [
-    #summary[IT services — internal tooling and support operations for a regional technology company.]
-
-    - Build a helpdesk web application using the MERN stack (MongoDB, Express, React, Node.js), covering ticket submission, tracking, and resolution workflows.
-
-    - Implement authentication and authorization mechanisms to ensure secure user access.
 
   ],
 )

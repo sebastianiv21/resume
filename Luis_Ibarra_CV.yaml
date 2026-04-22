@@ -63,16 +63,6 @@ cv:
           - "Diagnose and resolve database and infrastructure issues, minimizing downtime and maintaining uninterrupted service across a globally distributed environment."
           - "Manage support requests through ServiceNow, documenting solutions to build a reusable knowledge base and reduce recurrence of common issues."
 
-      - company: "IT Technology R&M SAS"
-        position: Full Stack Developer Intern
-        start_date: 2022-07
-        end_date: 2022-12
-        location: "Neiva, Colombia"
-        summary: "IT services — internal tooling and support operations for a regional technology company."
-        highlights:
-          - "Build a helpdesk web application using the MERN stack (MongoDB, Express, React, Node.js), covering ticket submission, tracking, and resolution workflows."
-          - "Implement authentication and authorization mechanisms to ensure secure user access."
-
     projects:
       - name: "[LogPilot](https://github.com/sebastianiv21/logpilot)"
         start_date: 2025
@@ -123,3 +113,5 @@ design:
     connections:
       phone_number_format: international
       show_icons: true
+  entries:
+    degree_width: 2.2cm
