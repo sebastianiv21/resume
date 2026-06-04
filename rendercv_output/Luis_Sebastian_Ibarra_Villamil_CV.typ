@@ -6,7 +6,7 @@
   name: "Luis Sebastian Ibarra Villamil",
   title: "Luis Sebastian Ibarra Villamil - CV",
   footer: context { [#emph[Luis Sebastian Ibarra Villamil -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Apr 2026] ],
+  top-note: [ #emph[Last updated in June 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 21,
+    month: 6,
+    day: 4,
   ),
 )
 
@@ -247,6 +247,36 @@
 
 #regular-entry(
   [
+    #strong[AWS Certified Solutions Architect – Associate]
+
+  ],
+  [
+    May 2026
+
+  ],
+  main-column-second-row: [
+    #summary[Amazon Web Services]
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Bootcamp DevOps]
+
+  ],
+  [
+    Apr 2026
+
+  ],
+  main-column-second-row: [
+    #summary[CloudCamp]
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[DevOps and Software Engineering Specialization]
 
   ],
@@ -271,36 +301,6 @@
   ],
   main-column-second-row: [
     #summary[IBM \/ Coursera]
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Containerized Applications on AWS]
-
-  ],
-  [
-    Jan 2024
-
-  ],
-  main-column-second-row: [
-    #summary[AWS \/ Coursera]
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[DevOps on AWS Specialization]
-
-  ],
-  [
-    Jan 2024
-
-  ],
-  main-column-second-row: [
-    #summary[AWS \/ Coursera]
 
   ],
 )
