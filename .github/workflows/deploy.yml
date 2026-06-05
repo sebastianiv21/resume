@@ -1,0 +1,39 @@
+name: Render & Deploy CV
+on:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  render-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Render CV
+        run: uvx --from "rendercv[full]" rendercv render Luis_Ibarra_CV.yaml
+
+      - name: Assemble public/
+        run: |
+          mkdir -p public
+          cp rendercv_output/*.pdf public/cv.pdf
+          cp web/_redirects public/_redirects
+
+      - name: Deploy to Cloudflare Pages
+        id: deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=rendercv --branch=${{ github.ref_name }}
+
+      - name: Publish URL to summary
+        run: echo "Deployed → ${{ steps.deploy.outputs.deployment-url }}" >> "$GITHUB_STEP_SUMMARY"
