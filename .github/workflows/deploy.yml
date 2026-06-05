@@ -1,7 +1,13 @@
 name: Render & Deploy CV
 on:
   push:
-    branches: ['**']
+    branches:
+      - main
+      - 'application/**'
+    paths-ignore:
+      - '.github/**'
+      - 'README.md'
+      - 'rendercv_output/**'
   workflow_dispatch:
 
 concurrency:
