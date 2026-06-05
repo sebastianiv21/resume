@@ -52,10 +52,12 @@ All content and design live in `Luis_Ibarra_CV.yaml`. The `# yaml-language-serve
 
 Every push is rendered by [GitHub Actions](.github/workflows/deploy.yml) and published to Cloudflare Pages over its global CDN. The bare deployment URL serves the PDF inline (a [`web/_redirects`](web/_redirects) rewrite maps `/` → `/cv.pdf`).
 
-**Branch = job application.** Each branch is a CV tailored to a specific application and gets its own URL:
+**Branch = job application.** A CV tailored to a specific application lives on an `application/*` branch and gets its own URL:
 
 - `main` → the canonical CV on the production (and custom) domain.
-- any other branch → a preview at `https://<branch>.rendercv.pages.dev`.
+- `application/<name>` → a preview at `https://application-<name>.rendercv.pages.dev`.
+
+Only `main` and `application/*` branches deploy — scratch branches don't generate previews.
 
 Tailor a CV for a role:
 
